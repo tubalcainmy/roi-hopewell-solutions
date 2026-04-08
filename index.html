@@ -1370,6 +1370,7 @@ async function submitForm() {
       monthlySpend: monthlyTotal,
     },
     submissionTime: new Date().toISOString(),
+    submissionURL: window.location.href,
   };
 
   try {
